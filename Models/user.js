@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 
-// 스키마 작성
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
